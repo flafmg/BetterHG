@@ -1,0 +1,7 @@
+name: BetterHG
+version: '1.0-SNAPSHOT'
+main: flaf.betterHG.BetterHG
+api-version: '1.18'
+prefix: BetterHG
+authors: [ flaf ]
+description: a simple and elegant hunger games plugin
