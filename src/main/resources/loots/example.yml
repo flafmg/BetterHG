@@ -1,0 +1,144 @@
+item0:
+  itemType: "golden_apple"
+  nbt: ""
+  rarity: 0.1
+  minAmount: 1
+  maxAmount: 2
+item1:
+  itemType: "iron_helmet"
+  nbt: ""
+  rarity: 0.2
+  minAmount: 1
+  maxAmount: 1
+item2:
+  itemType: "iron_chestplate"
+  nbt: ""
+  rarity: 0.2
+  minAmount: 1
+  maxAmount: 1
+item3:
+  itemType: "iron_leggings"
+  nbt: ""
+  rarity: 0.2
+  minAmount: 1
+  maxAmount: 1
+item4:
+  itemType: "iron_boots"
+  nbt: ""
+  rarity: 0.2
+  minAmount: 1
+  maxAmount: 1
+item5:
+  itemType: "chainmail_helmet"
+  nbt: ""
+  rarity: 0.5
+  minAmount: 1
+  maxAmount: 1
+item6:
+  itemType: "chainmail_chestplate"
+  nbt: ""
+  rarity: 0.5
+  minAmount: 1
+  maxAmount: 1
+item7:
+  itemType: "chainmail_leggings"
+  nbt: ""
+  rarity: 0.5
+  minAmount: 1
+  maxAmount: 1
+item8:
+  itemType: "chainmail_boots"
+  nbt: ""
+  rarity: 0.5
+  minAmount: 1
+  maxAmount: 1
+item9:
+  itemType: "leather_helmet"
+  nbt: ""
+  rarity: 0.8
+  minAmount: 1
+  maxAmount: 1
+item10:
+  itemType: "leather_chestplate"
+  nbt: ""
+  rarity: 0.8
+  minAmount: 1
+  maxAmount: 1
+item11:
+  itemType: "leather_leggings"
+  nbt: ""
+  rarity: 0.8
+  minAmount: 1
+  maxAmount: 1
+item12:
+  itemType: "leather_boots"
+  nbt: ""
+  rarity: 0.8
+  minAmount: 1
+  maxAmount: 1
+item13:
+  itemType: "gold_sword"
+  nbt: ""
+  rarity: 0.6
+  minAmount: 1
+  maxAmount: 1
+item14:
+  itemType: "stone_sword"
+  nbt: ""
+  rarity: 0.6
+  minAmount: 1
+  maxAmount: 1
+item15:
+  itemType: "wood_sword"
+  nbt: ""
+  rarity: 0.8
+  minAmount: 1
+  maxAmount: 1
+item16:
+  itemType: "gold_pickaxe"
+  nbt: ""
+  rarity: 0.6
+  minAmount: 1
+  maxAmount: 1
+item17:
+  itemType: "stone_pickaxe"
+  nbt: ""
+  rarity: 0.6
+  minAmount: 1
+  maxAmount: 1
+item18:
+  itemType: "wood_pickaxe"
+  nbt: ""
+  rarity: 0.8
+  minAmount: 1
+  maxAmount: 1
+item19:
+  itemType: "bow"
+  nbt: ""
+  rarity: 0.7
+  minAmount: 1
+  maxAmount: 1
+item20:
+  itemType: "arrow"
+  nbt: ""
+  rarity: 0.7
+  minAmount: 5
+  maxAmount: 15
+item21:
+  itemType: "bread"
+  nbt: ""
+  rarity: 0.9
+  minAmount: 1
+  maxAmount: 3
+item22:
+  itemType: "apple"
+  nbt: ""
+  rarity: 0.9
+  minAmount: 1
+  maxAmount: 3
+item23:
+  itemType: "cooked_beef"
+  nbt: ""
+  rarity: 0.9
+  minAmount: 1
+  maxAmount: 3
