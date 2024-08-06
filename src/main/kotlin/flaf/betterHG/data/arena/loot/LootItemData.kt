@@ -6,6 +6,7 @@ import de.tr7zw.changeme.nbtapi.NBTItem
 import org.bukkit.Material
 import org.bukkit.configuration.ConfigurationSection
 import org.bukkit.inventory.ItemStack
+import java.util.Random
 
 data class LootItemData(
     val itemType: String,
@@ -36,8 +37,19 @@ data class LootItemData(
     fun getAsItem(): ItemStack {
         val material = Material.matchMaterial(itemType) ?: throw IllegalArgumentException("Invalid item type: $itemType")
         val itemStack = ItemStack(material, minAmount)
-        val nbtItem = NBTItem(itemStack)
-        nbtItem.mergeCompound(NBT.parseNBT(nbt))
-        return nbtItem.item
+        if(nbt != "") {
+            val nbtItem = NBTItem(itemStack)
+            nbtItem.mergeCompound(NBT.parseNBT(nbt))
+            return nbtItem.item
+        }
+        return itemStack;
     }
+    fun getAsItemWithAmount(): ItemStack {
+        val itemStack = getAsItem()
+        val random = Random()
+        val amount = random.nextInt(maxAmount - minAmount + 1) + minAmount
+        itemStack.amount = amount
+        return itemStack
+    }
+
 }
